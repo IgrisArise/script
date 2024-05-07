@@ -7,6 +7,6 @@ git clone https://github.com/IgrisArise/local_manifests -b main .repo/local_mani
 #build
 /opt/crave/resync.sh
 . build/envsetup.sh
-lunch lineage_veux-ap1a-userdebug || lunch lineage_veux-userdebug
+lunch lineage_veux-ap1a-userdebug
 make installclean
 brunch veux
