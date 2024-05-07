@@ -7,6 +7,6 @@ git clone https://github.com/IgrisArise/local_manifests -b pos .repo/local_manif
 #build
 /opt/crave/resync.sh
 . build/envsetup.sh
-lunch aosp_veux-ap1a-userdebug || lunch aosp_veux-userdebug
+lunch aosp_veux-ap1a-userdebug
 make installclean
 make bacon
